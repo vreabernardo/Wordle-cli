@@ -1,7 +1,6 @@
 from dic import list_of_words
 from random import choice
 
-
 word_lenght = 5
 
 list_of_words = [x for x in list_of_words if len(x) == word_lenght]
